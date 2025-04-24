@@ -1,7 +1,7 @@
 {
   "url": "https://hook.eu2.make.com/9fak2pcyjys4th7gtlms4hbp3mbf52so",
   "timeout": 20,
-  "initialstate": "Klar til å sende",
+  "initialstate": "Send kontrakt",
   "expand": [
     "customData.kontakter_eksternkontaktperson",
     "customData.kontakter_eksternkontaktperson.contactinfo"
