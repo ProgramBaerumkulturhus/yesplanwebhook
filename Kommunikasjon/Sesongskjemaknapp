@@ -1,0 +1,37 @@
+{
+    "url": "https://hook.eu2.make.com/6flx8mc2nt4v7skn4lmjmrqo73wf5b72",
+    "timeout": 20,
+    "initialstate": "Klar til å sende", 
+    "expand": [
+        "customData.kontakter_eksternkontaktperson",
+        "customData.kontakter_eksternkontaktperson.contactinfo"
+      ],
+    
+    "states": [
+        {
+            "name": "Klar til å sende",
+            "buttons": ["Send skjema"]
+          },
+          {
+            "name": "Sendt",
+            "type": "success",
+            "buttons": ["Send igjen", "Steng skjema"]
+          },
+          {
+            "name": "Sendt på nytt",
+            "type": "success",
+            "buttons": ["Send igjen", "Steng skjema"]
+          },
+          {
+            "name": "Stengt",
+            "type": "error",
+            "buttons": ["Åpne igjen", "Tilbakestill"]
+          },
+          {
+            "name": "Error",
+            "type": "error",
+            "buttons": ["Send igjen", "Tilbakestill"]
+      }
+    ]
+  }
+  
