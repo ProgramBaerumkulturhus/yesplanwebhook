@@ -1,7 +1,7 @@
 {
     "url": "https://hook.eu2.make.com/or4njl7ntbbi69n7winbzb2wnhxtsz8j",
     "timeout": 20,
-    "initialstate": "Send korrektur", 
+    "initialstate": "Klar til å sende", 
     "expand": [
         "customData.kontakter_eksternkontaktperson",
         "customData.kontakter_eksternkontaktperson.contactinfo"
@@ -9,8 +9,8 @@
     
     "states": [
         {
-            "name": "Send korrektur",
-            "buttons": ["Send skjema"]
+            "name": "Klar til å sende",
+            "buttons": ["Send korrektur"]
           },
           {
             "name": "Sendt",
