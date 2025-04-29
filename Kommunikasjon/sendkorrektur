@@ -9,11 +9,13 @@
     },
     {
       "name": "Sendt",
-      "buttons": ["Send korrektur"]
+      "type": "success",
+      "buttons": ["Send igjen", "Tilbakestill"]
     },
     {
       "name": "Error",
-      "buttons": ["Send korrektur"]
+      "type": "error",
+      "buttons": ["Send igjen"]
     }
   ]
 }
