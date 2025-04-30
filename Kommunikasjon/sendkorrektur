@@ -10,7 +10,7 @@
     {
       "name": "Sendt",
       "type": "success",
-      "buttons": ["Send igjen INTERNT", "Send igjen EKSTERNT" "Tilbakestill"]
+      "buttons": ["Send igjen INTERNT", "Send igjen EKSTERNT", "Tilbakestill", "GODKJENN KORREKTUR"]
     },
     {
       "name": "Error",
