@@ -5,12 +5,12 @@
   "states": [
     {
       "name": "Klar til å sende",
-      "buttons": ["Send korrektur"]
+      "buttons": ["Send korrektur INTERNT", "Send korrektur EKSTERNT"]
     },
     {
       "name": "Sendt",
       "type": "success",
-      "buttons": ["Send igjen", "Tilbakestill"]
+      "buttons": ["Send igjen INTERNT", "Send igjen EKSTERNT" "Tilbakestill", "GODKJENN KORREKTUR"]
     },
     {
       "name": "Error",
