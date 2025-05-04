@@ -13,9 +13,9 @@
       "buttons": ["Send igjen INTERNT", "Send igjen EKSTERNT", "Tilbakestill", "GODKJENN KORREKTUR"]
     },
     {
-      "name": "Error",
+      "name": "Feil - mangler kontaktperson",
       "type": "error",
-      "buttons": ["Send igjen"]
+      "buttons": ["Send igjen INTERNT", Send igjen EKSTERNT"]
     },
 {
       "name": "Korrektur godkjent",
