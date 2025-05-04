@@ -9,6 +9,7 @@
     },
     {
       "name": "Sendt",
+      "status": "Til korrektur",
       "type": "success",
       "buttons": ["Send igjen INTERNT", "Send igjen EKSTERNT", "Tilbakestill", "GODKJENN KORREKTUR"]
     },
