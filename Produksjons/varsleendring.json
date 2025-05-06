@@ -1,0 +1,26 @@
+{
+  "url": "https://hook.eu2.make.com/kmy522ix6w4oqrn1g81q5qqlomrq68ul",
+  "timeout": 20,
+  "initialstate": "Gjort en endring?",
+  "states": [
+    {
+      "name": "Gjort en endring?",
+      "buttons": ["Varsle om endring"]
+    },
+    {
+      "name": "Endring sendt",
+      "type": "success",
+      "buttons": ["Varsle igjen", "Endring sett", "Tilbakestill"]
+    },
+    {
+      "name": "Endring sett og bekreftet",
+      "type": "success",
+      "buttons": ["Tilbakestill"]
+    },
+    {
+      "name": "Feil",
+      "type": "error",
+      "buttons": ["Varsle igjen", "Tilbakestill"]
+    }
+  ]
+}
