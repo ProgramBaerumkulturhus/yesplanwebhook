@@ -10,12 +10,7 @@
     {
       "name": "Endring sendt",
       "type": "success",
-      "buttons": ["Endring sett", "Tilbakestill"]
-    },
-    {
-      "name": "Endring sett og bekreftet",
-      "type": "success",
-      "buttons": ["Tilbakestill"]
+      "buttons": ["Endring bekreftet sett"]
     },
     {
       "name": "Feil",
