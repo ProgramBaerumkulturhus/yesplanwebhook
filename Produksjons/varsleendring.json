@@ -5,12 +5,12 @@
   "states": [
     {
       "name": "Gjort en endring?",
-      "buttons": ["Varsle om endring"]
+      "buttons": ["Varsle endring ALLE", "Varsle endring TEKNISK", "Varsle endring VERTSKAP"]
     },
     {
       "name": "Endring sendt",
       "type": "success",
-      "buttons": ["Varsle igjen", "Endring sett", "Tilbakestill"]
+      "buttons": ["Endring sett", "Tilbakestill"]
     },
     {
       "name": "Endring sett og bekreftet",
@@ -20,7 +20,7 @@
     {
       "name": "Feil",
       "type": "error",
-      "buttons": ["Varsle igjen", "Tilbakestill"]
+      "buttons": ["Tilbakestill"]
     }
   ]
 }
