@@ -20,12 +20,12 @@
     {
       "name": "Endring sett av Teknisk",
       "type": "success",
-      "buttons": ["Endring sett - VERTSKAP", "Tilbakestill"]
+      "buttons": ["Endring sett - Vertskap", "Tilbakestill"]
     },
     {
       "name": "Endring sett av Vertskap",
       "type": "success",
-      "buttons": ["Endring sett - TEKNISK", "Tilbakestill"]
+      "buttons": ["Endring sett - Teknisk", "Tilbakestill"]
     },
     {
       "name": "Feil",
