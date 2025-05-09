@@ -13,6 +13,21 @@
       "buttons": ["Endring bekreftet sett"]
     },
     {
+      "name": "Endring sendt - ALLE",
+      "type": "success",
+      "buttons": ["Endring sett - Teknisk", "Endring sett - Vertskap"]
+    },
+    {
+      "name": "Endring sett av Teknisk",
+      "type": "success",
+      "buttons": ["Endring sett - VERTSKAP", "Tilbakestill"]
+    },
+    {
+      "name": "Endring sett av Vertskap",
+      "type": "success",
+      "buttons": ["Endring sett - TEKNISK", "Tilbakestill"]
+    },
+    {
       "name": "Feil",
       "type": "error",
       "buttons": ["Tilbakestill"]
