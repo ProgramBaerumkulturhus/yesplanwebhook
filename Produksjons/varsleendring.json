@@ -28,6 +28,11 @@
       "buttons": ["Endring sett - Teknisk", "Tilbakestill"]
     },
     {
+      "name": "Alle endringer er sett",
+      "type": "success",
+      "buttons": ["Tilbakestill"]
+    },
+    {
       "name": "Feil",
       "type": "error",
       "buttons": ["Tilbakestill"]
