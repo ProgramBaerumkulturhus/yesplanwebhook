@@ -11,6 +11,11 @@
       "name": "Forespørsel sendt",
       "type": "success",
       "buttons": ["Tilbakestill"]
+    },
+    {
+      "name": "Data mangler - sjekk kontaktperson",
+      "type": "error",
+      "buttons": ["Tilbakestill"]
     }
   ]
 }
