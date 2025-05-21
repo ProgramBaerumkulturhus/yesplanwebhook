@@ -14,8 +14,13 @@
     },
     {
       "name": "Status etter KNAPP 2",
-      "type": "error",
+      "type": "success",
       "buttons": ["KNAPP 1", "Tilbakestill"]
+    },
+    {
+      "name": "Status ved feil",
+      "type": "error",
+      "buttons": ["Tilbakestill"]
     }
   ]
 }
