@@ -1,18 +1,18 @@
 {
   "url": "https://hook.eu2.make.com/dmu0nnj0k3iy80djwu18v6kqpfez5puk",
   "timeout": 20,
-  "initialstate": "Generer kontrakt",
+  "initialstate": "Generer drive-mappe",
   "expand": [
     "customData.kontakter_eksternkontaktperson",
     "customData.kontakter_eksternkontaktperson.contactinfo"
   ],
   "states": [
     {
-      "name": "Generer kontrakt",
+      "name": "Generer drive-mappe",
       "buttons": ["Generer"]
     },
     {
-      "name": "Kontrakt generert",
+      "name": "Mappe generert",
       "type": "success",
       "buttons": ["Åpne link", "Send konrakt"]
     },
