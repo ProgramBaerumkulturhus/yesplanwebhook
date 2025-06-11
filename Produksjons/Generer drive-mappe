@@ -9,7 +9,8 @@
     },
     {
       "name": "Mappe generert",
-      "type": "success"
+      "type": "success",
+      "buttons": ["Send til leietaker"]
     },
     {
       "name": "Error",
