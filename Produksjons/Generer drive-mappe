@@ -10,12 +10,11 @@
     {
       "name": "Mappe generert",
       "type": "success",
-      "buttons": ["Åpne link", "Generer mappe"]
     },
     {
       "name": "Error",
       "type": "error",
-      "buttons": ["Send igjen", "Tilbakestill"]
+      "buttons": ["Tilbakestill"]
     }
   ]
 }
