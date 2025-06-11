@@ -14,17 +14,7 @@
     {
       "name": "Mappe generert",
       "type": "success",
-      "buttons": ["Åpne link", "Send konrakt"]
-    },
-    {
-      "name": "Sendt på nytt",
-      "type": "success",
-      "buttons": ["Send igjen", "Steng skjema"]
-    },
-    {
-      "name": "Stengt",
-      "type": "error",
-      "buttons": ["Åpne igjen", "Tilbakestill"]
+      "buttons": ["Åpne link", "Generer mappe"]
     },
     {
       "name": "Error",
