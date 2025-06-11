@@ -9,7 +9,7 @@
     },
     {
       "name": "Mappe generert",
-      "type": "success",
+      "type": "success"
     },
     {
       "name": "Error",
