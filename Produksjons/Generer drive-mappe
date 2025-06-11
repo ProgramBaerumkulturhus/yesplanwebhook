@@ -10,7 +10,7 @@
     {
       "name": "Mappe generert",
       "type": "success",
-      "buttons": ["Send til leietaker"]
+      "buttons": ["Send til ekstern kontaktperson"]
     },
     {
       "name": "Error",
