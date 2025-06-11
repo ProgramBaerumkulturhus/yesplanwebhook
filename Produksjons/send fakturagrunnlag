@@ -1,0 +1,11 @@
+{
+  "url": "https://hook.eu2.make.com/4eje8pekuk5w5dg6u5jr3u5o6wgb18p2",
+  "timeout": 20,
+  "initialstate": "Send fakturagrunnlag",
+  "states": [
+    {
+      "name": "Send fakturagrunnlag",
+      "buttons": ["Send"]
+    }
+  ]
+}
