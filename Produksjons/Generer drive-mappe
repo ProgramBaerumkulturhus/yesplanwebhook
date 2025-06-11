@@ -5,7 +5,7 @@
   "states": [
     {
       "name": "Generer drive-mappe",
-      "buttons": ["Generer"]
+      "buttons": ["Mappe-tom", "Mappe-Teater", "Mappe-Danseskole", "Mappe-Co-Prod"]
     },
     {
       "name": "Mappe generert",
