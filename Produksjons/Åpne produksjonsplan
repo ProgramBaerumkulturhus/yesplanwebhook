@@ -1,11 +1,20 @@
 {
   "url": "https://hook.eu2.make.com/4eje8pekuk5w5dg6u5jr3u5o6wgb18p2",
   "timeout": 20,
-  "initialstate": "Åpne produksjonsplan",
+  "initialstate": "Lag produksjonsplan",
   "states": [
     {
-      "name": "Åpne produksjonsplan",
-      "buttons": ["Åpne"]
+      "name": "Lag produksjonsplan",
+      "buttons": ["Opprett"]
+    },
+ {
+      "name": "Plan opprettet",
+      "status: "success",
+      "buttons": ["Send til leietaker"]
+    },
+ {
+      "name": "Sendt",
+      "buttons": ["Send på nytt"]
     }
   ]
 }
