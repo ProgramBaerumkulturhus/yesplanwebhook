@@ -9,7 +9,7 @@
     },
  {
       "name": "Plan opprettet",
-      "status: "success",
+      "type: "success",
       "buttons": ["Send til leietaker"]
     },
  {
