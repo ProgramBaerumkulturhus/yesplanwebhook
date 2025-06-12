@@ -13,6 +13,11 @@
       "buttons": ["Send til ekstern kontaktperson"]
     },
     {
+      "name": "Mappe sendt",
+      "type": "success",
+      "buttons": ["Send på nytt"]
+    },
+    {
       "name": "Error",
       "type": "error",
       "buttons": ["Tilbakestill"]
