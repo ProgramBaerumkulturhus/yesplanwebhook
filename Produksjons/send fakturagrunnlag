@@ -16,6 +16,11 @@
       "name": "Avbrutt grunnet tilbakemelding",
       "type": "error",
       "buttons": ["Send oppdatert fakturagrunnlag"]
+    },
+    {
+      "name": "Sendt til regnskap",
+      "type": "success",
+      "buttons": ["Tilbakestill"]
     }
   ]
 }
