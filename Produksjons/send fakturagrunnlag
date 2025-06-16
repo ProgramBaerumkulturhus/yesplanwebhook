@@ -5,7 +5,7 @@
   "states": [
     {
       "name": "Send fakturagrunnlag",
-      "buttons": ["Send"]
+      "buttons": ["Send til leietaker"]
     },
     {
       "name": "Sendt til leietaker",
