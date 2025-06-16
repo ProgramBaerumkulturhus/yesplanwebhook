@@ -10,7 +10,7 @@
     {
       "name": "Sendt til leietaker",
       "type": "success",
-      "buttons": ["Avbryt! Tilbakemelding motatt", "Send til regnskap"]
+      "buttons": ["Avbryt! Tilbakemelding motatt", "Send til regnskap", "Tilbakestill"]
     },
     {
       "name": "Avbrutt grunnet tilbakemelding",
