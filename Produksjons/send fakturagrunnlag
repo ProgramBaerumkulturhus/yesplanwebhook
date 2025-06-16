@@ -6,6 +6,16 @@
     {
       "name": "Send fakturagrunnlag",
       "buttons": ["Send"]
+    },
+    {
+      "name": "Sendt til leietaker",
+      "type": "success",
+      "buttons": ["Avbryt! Tilbakemelding motatt", "Send til regnskap"]
+    },
+    {
+      "name": "Avbrutt grunnet tilbakemelding",
+      "type": "error",
+      "buttons": ["Send oppdatert fakturagrunnlag"]
     }
   ]
 }
