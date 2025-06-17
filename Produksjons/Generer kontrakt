@@ -1,7 +1,7 @@
 {
   "url": "https://hook.eu2.make.com/8364rwy2azpacnjnrid09mhl7u2df82q",
   "timeout": 30,
-  "initialstate": "Generer kontrakt",
+  "initialstate": "Generer kontrakt for",
  
   "states": [
     {
