@@ -10,7 +10,7 @@
    {
       "name": "Felter fylt inn",
 "type": "success",
-      "buttons": ["Nullstill"]
-    }
+      "buttons": ["Nullstill", "Tøm felter helt"]
+    },
     ]
   }
