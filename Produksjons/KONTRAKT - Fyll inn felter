@@ -6,6 +6,11 @@
     {
       "name": "Start kontraktsprosess",
       "buttons": ["Artistkontrakt"]
+    },
+   {
+      "name": "Felter fylt inn",
+"type": "success",
+      "buttons": ["Nullstill"]
     }
     ]
   }
