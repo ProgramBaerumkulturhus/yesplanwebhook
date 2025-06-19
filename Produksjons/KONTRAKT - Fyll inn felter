@@ -11,6 +11,6 @@
       "name": "Felter fylt inn",
 "type": "success",
       "buttons": ["Nullstill", "Tøm felter helt"]
-    },
+    }
     ]
   }
