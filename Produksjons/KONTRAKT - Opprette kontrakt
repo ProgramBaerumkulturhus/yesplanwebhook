@@ -1,12 +1,16 @@
 {
-  "url": "https://hook.eu2.make.com/8364rwy2azpacnjnrid09mhl7u2df82q",
-  "timeout": 30,
-  "initialstate": "Generer kontrakt for",
- 
+  "url": "https://hook.eu2.make.com/vrx9la4kpx5vrslkhq3nhbpf8bhp7nsb",
+  "timeout": 20,
+  "initialstate": "Start kontraktsprosess",
   "states": [
     {
-      "name": "Generer",
+      "name": "Start kontraktsprosess",
       "buttons": ["Artistkontrakt"]
+    },
+   {
+      "name": "Kontrakt generert",
+"type": "success",
+      "buttons": ["Resett"]
     }
-  ]
-}
+    ]
+  }
