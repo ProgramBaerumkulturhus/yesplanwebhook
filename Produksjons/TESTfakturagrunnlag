@@ -1,1 +1,50 @@
-
+{
+  "url": "{"https://hook.eu2.make.com/342hhhbso3xe9ikgoexv2uwd3e64u0sg",
+  "timeout": 15,
+  "initialstate": "Knapp STATUS",
+  "states": [
+    {
+      "name": "Knapp STATUS",
+      "buttons": ["KNAPP 1", "KNAPP 2"]
+    },
+    {
+      "name": "Status etter KNAPP 1",
+      "type": "success",
+      "buttons": ["KNAPP 2", "Tilbakestill"]
+    },
+    {
+      "name": "Status etter KNAPP 2",
+      "type": "success",
+      "buttons": ["KNAPP 1", "Tilbakestill"]
+    },
+    {
+      "name": "Status ved feil",
+      "type": "error",
+      "buttons": ["Tilbakestill"]
+    }
+  ]
+}",
+  "timeout": 15,
+  "initialstate": "Knapp STATUS",
+  "states": [
+    {
+      "name": "Knapp STATUS",
+      "buttons": ["KNAPP 1", "KNAPP 2"]
+    },
+    {
+      "name": "Status etter KNAPP 1",
+      "type": "success",
+      "buttons": ["KNAPP 2", "Tilbakestill"]
+    },
+    {
+      "name": "Status etter KNAPP 2",
+      "type": "success",
+      "buttons": ["KNAPP 1", "Tilbakestill"]
+    },
+    {
+      "name": "Status ved feil",
+      "type": "error",
+      "buttons": ["Tilbakestill"]
+    }
+  ]
+}
