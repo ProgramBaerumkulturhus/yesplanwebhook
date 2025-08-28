@@ -1,6 +1,6 @@
 {
   "url": "https://hook.eu2.make.com/8364rwy2azpacnjnrid09mhl7u2df82q",
-  "timeout": 30,
+  "timeout": 80,
   "initialstate": "Generer kontrakt for",
  
   "states": [
@@ -11,7 +11,7 @@
     {
       "name": "Kontrakt generert",
       "type": "success",
-      "buttons": ["Send konrakt"]
+      "buttons": ["Generer på nytt", "Send konrakt"]
     },
     {
       "name": "Kontrakt sendt",
