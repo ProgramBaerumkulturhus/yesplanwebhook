@@ -6,17 +6,17 @@
   "states": [
     {
       "name": "Generer kontrakt for",
-      "buttons": ["Leieforhold"]
+      "buttons": ["Leieforhold", "Artistkontrakt"]
     },
     {
-      "name": "Kontrakt generert",
+      "name": "Leiekontrakt generert",
       "type": "success",
-      "buttons": ["Generer på nytt", "Send konrakt"]
+      "buttons": ["Generer på nytt"]
     },
     {
-      "name": "Kontrakt sendt",
+      "name": "Artistkontrakt generert",
       "type": "success",
-      "buttons": ["Send igjen"]
+      "buttons": ["Generer på nytt"]
     },
     {
       "name": "Feil - mangler innhold",
