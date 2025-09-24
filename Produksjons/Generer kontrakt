@@ -11,12 +11,12 @@
     {
       "name": "Leiekontrakt generert",
       "type": "success",
-      "buttons": ["Generer på nytt"]
+      "buttons": ["Generer på nytt", "Lag PDF", "Tilbakestill"]
     },
     {
       "name": "Artistkontrakt generert",
       "type": "success",
-      "buttons": ["Generer på nytt"]
+      "buttons": ["Generer på nytt", "Lag PDF", "Tilbakestill"]
     },
     {
       "name": "Feil - mangler innhold",
