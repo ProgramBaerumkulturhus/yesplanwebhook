@@ -11,7 +11,7 @@
     {
       "name": "Leiekontrakt generert",
       "type": "success",
-      "buttons": ["Generer på nytt", "Lag PDF", "Tilbakestill"]
+      "buttons": ["Generer på nytt", "Tilbakestill"]
     },
     {
       "name": "Artistkontrakt generert",
