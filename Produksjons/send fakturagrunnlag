@@ -1,6 +1,6 @@
 {
   "url": "https://hook.eu2.make.com/yv3yiutj0hqilbtisod7jv7gepe2qlno",
-  "timeout": 20,
+  "timeout": 60,
   "initialstate": "Opprett prisoversikt",
   "states": [
     {
