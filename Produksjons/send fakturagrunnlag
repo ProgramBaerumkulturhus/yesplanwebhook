@@ -1,23 +1,28 @@
 {
   "url": "https://hook.eu2.make.com/8gc69pgdpa0u1mpeogxpsgewwy956hu8",
   "timeout": 20,
-  "initialstate": "Send fakturagrunnlag",
+  "initialstate": "Opprett prisoversikt",
   "states": [
     {
-      "name": "Send fakturagrunnlag",
-      "buttons": ["Send til leietaker"]
+      "name": "Opprett prisoversikt",
+      "buttons": ["Opprett"]
     },
     {
-      "name": "Sendt til leietaker",
+      "name": "Prisoversikt opprettet",
       "type": "success",
-      "buttons": ["Avbryt! Tilbakemelding motatt", "Send til regnskap", "Tilbakestill"]
+      "buttons": ["Opprett ny prisoversikt", "Send til ekstern kontaktperson", "Send til regnskap", "Tilbakestill"]
     },
     {
-      "name": "Avbrutt grunnet tilbakemelding",
+      "name": "FEIL - info mangler",
       "type": "error",
-      "buttons": ["Send oppdatert fakturagrunnlag"]
+      "buttons": ["Tilbakestill"]
     },
     {
+      "name": "Sendt til ekstern kontaktperson",
+      "type": "success",
+      "buttons": ["Tilbakestill", "Send til regnskap"]
+    },
+   {
       "name": "Sendt til regnskap",
       "type": "success",
       "buttons": ["Tilbakestill"]
