@@ -1,0 +1,27 @@
+{
+  "url": "https://hook.eu2.make.com/8obk9nz62jvtbp5p91ad33ik7ew9wpum",
+  "timeout": 60,
+  "initialstate": "Opprett skjema",
+ 
+  "states": [
+    {
+      "name": "Opprett skjema",
+      "buttons": ["Opprett"]
+    },
+    {
+      "name": "Skjema opprettet",
+      "type": "success",
+      "buttons": ["Send til ekstern kontaktperson", "Generer på nytt", "Tilbakestill"]
+    },
+    {
+      "name": "Sendt",
+      "type": "success",
+      "buttons": ["Generer på nytt", "Tilbakestill"]
+    },
+    {
+      "name": "Feil - mangler innhold",
+      "type": "error",
+      "buttons": ["Tilbakestill"]
+    }
+  ]
+}
