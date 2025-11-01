@@ -15,23 +15,18 @@
           {
             "name": "Sendt",
             "type": "success",
-            "buttons": ["Send igjen", "Steng skjema"]
-          },
-          {
-            "name": "Sendt på nytt",
-            "type": "success",
-            "buttons": ["Send igjen", "Steng skjema"]
-          },
-          {
-            "name": "Stengt",
-            "type": "error",
-            "buttons": ["Åpne igjen", "Tilbakestill"]
-          },
-          {
-            "name": "Error",
-            "type": "error",
             "buttons": ["Send igjen", "Tilbakestill"]
-      }
+          },
+          {
+            "name": "Feil ved sending",
+            "type": "error",
+            "buttons": ["Tilbakestill"]
+          },
+          {
+            "name": "Skjema besvart",
+            "type": "success",
+            "buttons": ["Tilbakestill"]
+          }
     ]
   }
   
