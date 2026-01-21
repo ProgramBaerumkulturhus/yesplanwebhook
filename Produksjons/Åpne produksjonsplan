@@ -15,6 +15,11 @@
  {
       "name": "Sendt",
       "buttons": ["Send på nytt"]
+    },
+{
+      "name": "Ekstern kontaktperson mangler",
+      "type": "error",
+      "buttons": ["Prøv på nytt"]
     }
   ]
 }
