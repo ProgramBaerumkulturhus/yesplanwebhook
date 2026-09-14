@@ -5,21 +5,33 @@
   "states": [
     {
       "name": "Lag produksjonsplan",
-      "buttons": ["Opprett"]
+      "buttons": [
+        "Opprett"
+      ]
     },
- {
+    {
       "name": "Plan opprettet",
       "type": "success",
-      "buttons": ["Send til leietaker"]
+      "buttons": [
+        "Send til leietaker",
+        "Tilbakestill"
+      ]
     },
- {
+    {
       "name": "Sendt",
-      "buttons": ["Send på nytt"]
+      "type": "success",
+      "buttons": [
+        "Send på nytt",
+        "Tilbakestill"
+      ]
     },
-{
+    {
       "name": "Ekstern kontaktperson mangler",
       "type": "error",
-      "buttons": ["Prøv på nytt"]
+      "buttons": [
+        "Prøv på nytt",
+        "Tilbakestill"
+      ]
     }
   ]
 }
