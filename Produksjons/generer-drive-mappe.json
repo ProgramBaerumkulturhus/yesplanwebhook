@@ -1,0 +1,39 @@
+{
+  "url": "https://hook.eu2.make.com/dmu0nnj0k3iy80djwu18v6kqpfez5puk",
+  "timeout": 40,
+  "initialstate": "Generer drive-mappe",
+  "states": [
+    {
+      "name": "Generer drive-mappe",
+      "buttons": [
+        "Mappe-tom",
+        "Mappe-Teater",
+        "Mappe-Danseskole",
+        "Mappe-Co-Prod"
+      ]
+    },
+    {
+      "name": "Mappe generert",
+      "type": "success",
+      "buttons": [
+        "Send til ekstern kontaktperson",
+        "Tilbakestill"
+      ]
+    },
+    {
+      "name": "Mappe sendt",
+      "type": "success",
+      "buttons": [
+        "Send på nytt",
+        "Tilbakestill"
+      ]
+    },
+    {
+      "name": "Mangler ekstern kontaktperson",
+      "type": "error",
+      "buttons": [
+        "Tilbakestill"
+      ]
+    }
+  ]
+}
