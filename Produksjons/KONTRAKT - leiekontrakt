@@ -1,0 +1,14 @@
+{
+  "url": "https://hook.eu2.make.com/https://hook.eu2.make.com/tg6t34pxdif5nn2su1dx01wm4nhvssrb",
+  "timeout": 60,
+  "initialstate": "Opprett leiekontrakt",
+  "states": [
+    { "name": "Opprett leiekontrakt", "buttons": ["Opprett"] },
+    { "name": "Kontrakt opprettet", "type": "success",
+      "buttons": ["Lag PDF", "Opprett på nytt", "Tilbakestill"] },
+    { "name": "Kontrakt ferdig", "type": "success",
+      "buttons": ["Opprett på nytt", "Tilbakestill"] },
+    { "name": "Mangler prisoversikt", "type": "error", "buttons": ["Tilbakestill"] },
+    { "name": "FEIL - mangler innhold", "type": "error", "buttons": ["Tilbakestill"] }
+  ]
+}
