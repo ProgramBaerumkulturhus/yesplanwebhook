@@ -34,6 +34,13 @@
       "buttons": [
         "Tilbakestill"
       ]
+    },
+    {
+      "name": "Mangler sesongmappe",
+      "type": "error",
+      "buttons": [
+        "Tilbakestill"
+      ]
     }
   ]
 }
