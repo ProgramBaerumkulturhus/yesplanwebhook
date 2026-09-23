@@ -6,10 +6,7 @@
     {
       "name": "Generer drive-mappe",
       "buttons": [
-        "Mappe-tom",
-        "Mappe-Teater",
-        "Mappe-Danseskole",
-        "Mappe-Co-Prod"
+        "Opprett mappe"
       ]
     },
     {
