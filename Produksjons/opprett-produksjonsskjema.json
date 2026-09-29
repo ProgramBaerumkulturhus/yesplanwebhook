@@ -14,6 +14,7 @@
       "type": "success",
       "buttons": [
         "Send til ekstern kontaktperson",
+        "Oppdater dager",
         "Tilbakestill"
       ]
     },
@@ -22,6 +23,7 @@
       "type": "success",
       "buttons": [
         "Send på nytt",
+        "Oppdater dager",
         "Tilbakestill"
       ]
     },
@@ -29,6 +31,7 @@
       "name": "Svar mottatt",
       "type": "success",
       "buttons": [
+        "Oppdater dager",
         "Tilbakestill"
       ]
     },
