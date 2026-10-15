@@ -3,53 +3,25 @@
   "timeout": 20,
   "initialstate": "Gjort en endring?",
   "states": [
-    {
-      "name": "Gjort en endring?",
-      "buttons": [
-        "Varsle endring ALLE",
-        "Varsle endring TEKNISK",
-        "Varsle endring VERTSKAP"
-      ]
-    },
-    {
-      "name": "Endring sendt",
-      "type": "success",
-      "buttons": [
-        "Endring bekreftet sett",
-        "Tilbakestill"
-      ]
-    },
-    {
-      "name": "Endring sendt - ALLE",
-      "type": "success",
-      "buttons": [
-        "Endring sett - Teknisk",
-        "Endring sett - Vertskap",
-        "Tilbakestill"
-      ]
-    },
-    {
-      "name": "Endring sett av Teknisk",
-      "type": "success",
-      "buttons": [
-        "Endring sett - Vertskap",
-        "Tilbakestill"
-      ]
-    },
-    {
-      "name": "Endring sett av Vertskap",
-      "type": "success",
-      "buttons": [
-        "Endring sett - Teknisk",
-        "Tilbakestill"
-      ]
-    },
-    {
-      "name": "Alle endringer er sett",
-      "type": "success",
-      "buttons": [
-        "Tilbakestill"
-      ]
-    }
+    { "name": "Gjort en endring?",
+      "buttons": ["Varsle endring ALLE", "Varsle endring TEKNISK", "Varsle endring VERTSKAP"] },
+
+    { "name": "Endring sendt - ALLE", "type": "success",
+      "buttons": ["Endring sett - Teknisk", "Endring sett - Vertskap", "Tilbakestill"] },
+
+    { "name": "Endring sendt - Teknisk", "type": "success",
+      "buttons": ["Endring sett - Teknisk", "Tilbakestill"] },
+
+    { "name": "Endring sendt - Vertskap", "type": "success",
+      "buttons": ["Endring sett - Vertskap", "Tilbakestill"] },
+
+    { "name": "Endring sett av Teknisk", "type": "success",
+      "buttons": ["Endring sett - Vertskap", "Tilbakestill"] },
+
+    { "name": "Endring sett av Vertskap", "type": "success",
+      "buttons": ["Endring sett - Teknisk", "Tilbakestill"] },
+
+    { "name": "Alle endringer er sett", "type": "success",
+      "buttons": ["Tilbakestill"] }
   ]
 }
