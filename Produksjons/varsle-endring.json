@@ -22,6 +22,16 @@
       "buttons": ["Endring sett - Teknisk", "Tilbakestill"] },
 
     { "name": "Alle endringer er sett", "type": "success",
-      "buttons": ["Tilbakestill"] }
+      "buttons": ["Tilbakestill"] },
+    {
+  "name": "Feil - kunne ikke sende varsel",
+  "type": "error",
+  "buttons": [
+    "Varsle endring ALLE",
+    "Varsle endring TEKNISK",
+    "Varsle endring VERTSKAP",
+    "Tilbakestill"
+  ]
+}
   ]
 }
