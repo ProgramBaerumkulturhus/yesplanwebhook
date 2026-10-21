@@ -1,27 +1,53 @@
 {
   "url": "https://hook.eu2.make.com/or4njl7ntbbi69n7winbzb2wnhxtsz8j",
   "timeout": 20,
-  "initialstate": "Klar til å sende",
+  "initialstate": "Send korrektur til",
   "states": [
     {
-      "name": "Klar til å sende",
-      "buttons": ["Send korrektur INTERNT", "Send korrektur EKSTERNT"]
+      "name": "Send korrektur til",
+      "buttons": [
+        "Produsent",
+        "Leietaker",
+        "Andre scener"
+      ]
     },
     {
       "name": "Sendt",
       "status": "Til korrektur",
       "type": "success",
-      "buttons": ["Send igjen INTERNT", "Send igjen EKSTERNT", "Tilbakestill", "GODKJENN KORREKTUR"]
+      "buttons": [
+        "Produsent",
+        "Leietaker",
+        "Andre scener",
+        "GODKJENN KORREKTUR",
+        "Tilbakestill"
+      ]
     },
     {
       "name": "Feil - Legg inn manglende info og send igjen",
       "type": "error",
-      "buttons": ["Send igjen INTERNT", "Send igjen EKSTERNT", "Tilbakestill"]
+      "buttons": [
+        "Produsent",
+        "Leietaker",
+        "Andre scener",
+        "Tilbakestill"
+      ]
     },
-{
+    {
       "name": "Korrektur godkjent",
       "type": "success",
-      "buttons": ["Tilbakestill"]
+      "buttons": [
+        "Tilbakestill"
+      ]
+    },
+    {
+      "name": "Klar til å sende",
+      "buttons": [
+        "Produsent",
+        "Leietaker",
+        "Andre scener",
+        "Tilbakestill"
+      ]
     }
   ]
 }
