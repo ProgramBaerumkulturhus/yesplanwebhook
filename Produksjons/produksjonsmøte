@@ -1,0 +1,16 @@
+{
+  "url": "https://hook.eu2.make.com/w8k6n01v9mmqhnoxmj29fm3ee371c4vl",
+  "timeout": 30,
+  "initialstate": "Opprett",
+  "states": [
+    {
+      "name": "Opprett",
+      "buttons": ["Innkallingsmal for produksjonsmøte"]
+    },
+    {
+      "name": "Mal sendt til produsent",
+      "type": "success",
+      "buttons": ["Tilbakestill"]
+    }
+  ]
+}
