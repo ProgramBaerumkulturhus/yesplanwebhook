@@ -1,16 +1,11 @@
+
 {
   "url": "https://hook.eu2.make.com/drg3w29hy48lpa1p0wk6m4ew6mobmn8h",
-  "timeout": 30,
-  "initialstate": "Opprett",
+  "timeout": 20,
+  "initialstate": "Send innkalling",
   "states": [
-    {
-      "name": "Opprett",
-      "buttons": ["Innkallingsmal for produksjonsmøte"]
-    },
-    {
-      "name": "Mal sendt til produsent",
-      "type": "success",
-      "buttons": ["Tilbakestill"]
-    }
+    { "name": "Send innkalling",  "buttons": ["Send til meg"] },
+    { "name": "Innkalling sendt", "type": "success", "buttons": ["Send til meg", "Tilbakestill"] },
+    { "name": "Mangler info",     "type": "error",   "buttons": ["Send til meg", "Tilbakestill"] }
   ]
 }
