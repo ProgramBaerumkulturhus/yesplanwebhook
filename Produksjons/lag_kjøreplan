@@ -1,0 +1,11 @@
+{
+  "url": "https://hook.eu2.make.com/exh03vhasj2qbicpve6u14kjqd0khpcp",
+  "timeout": 60,
+  "initialstate": "Lag kjøreplan",
+  "states": [
+    { "name": "Lag kjøreplan",  "buttons": ["Lag kjøreplan"] },
+    { "name": "Kjøreplan laget", "type": "success", "buttons": ["Lag kjøreplan", "Tilbakestill"] },
+    { "name": "Mangler drivemappe", "type": "error", "buttons": ["Lag kjøreplan", "Tilbakestill"] },
+    { "name": "Feil - kunne ikke lage kjøreplan", "type": "error", "buttons": ["Lag kjøreplan", "Tilbakestill"] }
+  ]
+}
